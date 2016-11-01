@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fadlianugrahemas.tpcc3.MainActivity"
+    android:background="#fefdfd"
+    android:id="@+id/funactivity"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asu"
+        android:text="Halo Dunia"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:id="@+id/ic_telu"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/btnTekan"
+        android:layout_gravity="center"
+        android:background="#fffdfd" />
+</LinearLayout>
